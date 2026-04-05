@@ -246,6 +246,16 @@ background-color: #2E2F42;
     
 }
 
+.our-features-icon-div {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    height: 112px;
+    background: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .our-features-h3 {
     font-weight: 500;
     font-size: 20px;
