@@ -147,6 +147,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
  
@@ -154,14 +155,14 @@ img {
 .contact-send:hover
 {
     color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .hero-image {
 background-color: #2E2F42;
     padding-block: 188px;
     overflow: hidden;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/hero-img.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,6 +255,7 @@ background-color: #2E2F42;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 8px;
 }
 
 .linked-icons-ul {
@@ -267,6 +269,7 @@ background-color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .our-features-p {
