@@ -242,7 +242,7 @@ background-color: #2E2F42;
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -282,7 +282,7 @@ background-color: #2E2F42;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    
 }
 
 .linked-icons-ul {
@@ -306,7 +306,8 @@ background-color: #2E2F42;
 }
 
 .our-features-h3,
-.our-features-p {
+.our-features-p,
+.our-features-icon-div {
 margin-bottom: 8px;
 margin-top: 8px;
 letter-spacing: 0.02em;
